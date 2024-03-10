@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style>
+		div{
+			background-image: url(../Picture/nen4.jpg);
+			padding: 10px;
+		}
+		h1{
+			text-align: right;
+		}
+		.BlueCL{
+			color: blue;
+		}
+		.UL-OL{
+			background-color: whitesmoke;
+		}
+		.GreyBG{
+			background-color: grey;
+		}
+		.BlueBG{
+			background-color: Blue;
+		}
+		.GreenBG{
+			background-color: green;
+		}
+		.OrangeBG{
+			background-color: orange;
+		}
+		.PurpleBG{
+			background-color: purple;
+		}
+		.PinkBG{
+			background-color: pink;
+		}
+		.Disc{
+			list-style: disc;
+		}
+		.Circle{
+			list-style: circle;
+		}
+		.Square{
+			list-style: Square;
+		}
+		.TypeA {
+    		list-style-type: upper-alpha;
+		}
+		.Typea {
+    		list-style-type: lower-alpha;
+		}
+		.TypeI
+		{
+			list-style-type: upper-roman;
+		}
+		.Type1{
+			list-style-type: decimal;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<dt>
+			<dl class="UL-OL">
+				Tag UL - OL
+				<ul class="GreyBG">				
+					<li>Danh sách không</li>
+					<li>Danh sách có thứ tự</li>
+				</ul>
+			</dl>
+			<dl class="UL-OL">
+				Tag a
+				<ul  class="GreyBG">
+					<li>Liên kết nội</li>
+					<li>Liên kết ngoại</li>
+				</ul>
+			</dl>
+			<dl class="BlueBG">
+				Gắn liên kết với vị trí chỉ định
+				<ol class="GreenBG TypeA">
+					<a href="#HP1"><li>Liên kết tới học phần 1</li></a>
+					<a href="#HP3"><li>Liên kết tới học phần 3</li></a>
+					<a href="#HP6"><li>Liên kết tới học phần 6</li></a>
+				</ol>
+			</dl>
+			<dl class="BlueBG">
+				ol type attribute
+				<ol class="GreyBG TypeA" start="4">
+					<li>Kỹ thuật viên tin học OL</li>
+					<li>Chuyên ngành website</li>
+				</ol>
+			</dl>
+			<dl class="OrangeBG" id="HP1">
+				list-style: Disc "HP1"
+				<ul class="GreenBG Disc">
+					<li>HP1</li>
+					<li>HP2</li>
+					<li>HP3</li>
+				</ul>
+			</dl>
+			<dl class="OrangeBG" id="HP3">
+				list-style: Circle "HP3"
+				<ul class="PurpleBG Circle">
+					<li>HP4</li>
+					<li>HP5</li>
+					<li>HP6</li>
+				</ul>
+			</dl>
+			<dl class="OrangeBG" id="HP6">
+				list-style: Square "HP6"
+				<ul class="PurpleBG Square">
+					<li>HP7</li>
+					<li>HP8</li>
+					<li>HP9</li>
+				</ul>
+			</dl>
+			<dl class="PinkBG">
+				<ol class="TypeI">
+					<li>
+						Tin học căn bản
+						<ol class="Type1">
+							<li>Tổng quan máy tính</li>
+							<li>Hệ điều hành</li>
+						</ol>
+					</li>
+					<li>
+						Tin học văn phòng
+						<ol class="Type1">
+							<li>Word</li>
+							<li>Excel</li>
+						</ol>
+					</li>
+					<li>
+						Tin học quản lý
+						<ol class="Type1">
+							<li>Access</li>
+							<li>PP</li>
+						</ol>
+					</li>
+				</ol>
+			</dl>
+			<dl class="GreyBG">
+				<ol class="Typea" start="5">
+					<a href="Bai2.html" target="_blank"><li>Mở BT2</li></a>
+					<a href=""><li>Visit W3School</li></a>
+				</ol>
+			</dl>
+			<dl class="OrangeBG">
+				Gắn liên kết tới vị trí XX
+<ul class="GreenBG Circle">
+					<li>HP1</li>
+					<li>HP3</li>
+					<li>HP6</li>
+				</ul>
+				<ol class="GreyBG TypeI BlueCL">
+					<li>
+						Tin học căn bản
+						<ol class="Type1">
+							<li>Tổng quan máy tính</li>
+							<li>Hệ điều hành</li>
+						</ol>
+					</li>
+					<li>
+						Tin học văn phòng
+						<ol class="Type1">
+							<li>Word</li>
+							<li>Excel</li>
+						</ol>
+					</li>
+					<li>
+						Tin học quản lý
+						<ol class="Type1">
+							<li>Access</li>
+							<li>PP</li>
+						</ol>
+					</li>
+				</ol>
+			</dl>
+		</dt>
+		<a href="#"><h1 class="GreenBG">Về Đầu Trang</h1></a>
+	</div>
+</body>
+</html>
